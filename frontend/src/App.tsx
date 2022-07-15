@@ -1,8 +1,11 @@
+import NotificationButton from "./components/NotificationButton";
+
 function App() {
   return (
-    <div>
-      <h1>Hello Word!</h1>;
-    </div>
+    <>
+      <h1>Hello Word!</h1>
+      <NotificationButton />
+    </>
   );
 }
 
